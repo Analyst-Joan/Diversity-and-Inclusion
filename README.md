@@ -44,16 +44,24 @@ With the data now processed, it’s time to explore the data. We’ll analyze re
 ### Analyzing Gender Diversity and Inclusion
 To analyze and visualize metrics that show gender ratios in hiring, promotion, and turnover rate, the following measures were first computed:
 ```
-Females = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[Gender] = "Female")
+Females = CALCULATE(
+                   COUNT('Pharma Group AG'[Employee ID]),
+                         'Pharma Group AG'[Gender] = "Female")
 ```
 ```
-Males = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[Gender] = "Male")
+Males = CALCULATE(
+                 COUNT('Pharma Group AG'[Employee ID]),
+                       'Pharma Group AG'[Gender] = "Male")
 ```
 ```
-New hires = CALCULATE(COUNT('Pharma Group AG'[New hire FY20?]),'Pharma Group AG'[New hire FY20?]="Yes")
+New hires = CALCULATE(
+                     COUNT('Pharma Group AG'[New hire FY20?]),
+                           'Pharma Group AG'[New hire FY20?]="Yes")
 ```
 ```
-Leavers = CALCULATE(COUNT('Pharma Group AG'[FY20 leaver?]),'Pharma Group AG'[FY20 leaver?] = "Yes")
+Leavers = CALCULATE(
+                  COUNT('Pharma Group AG'[FY20 leaver?]),
+                        'Pharma Group AG'[FY20 leaver?] = "Yes")
 ```
 ```
 % Turnover rate = DIVIDE(
@@ -65,16 +73,18 @@ Leavers = CALCULATE(COUNT('Pharma Group AG'[FY20 leaver?]),'Pharma Group AG'[FY2
                                           'Pharma Group AG'[New hire FY20?] ="No"))
 ```
 ```
-Female_leavers Average Performance rating = CALCULATE(
-                                                     AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
-                                           'Pharma Group AG'[Gender]="Female",
-                                           'Pharma Group AG'[FY20 leaver?]="Yes")
-```
-```
-Male_leavers Average Performance rating = CALCULATE(
-                                                   AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
-                                       'Pharma Group AG'[Gender]="Male",
+Female_leavers Average Performance rating = 
+                         CALCULATE(
+                               AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
+                                       'Pharma Group AG'[Gender]="Female",
                                        'Pharma Group AG'[FY20 leaver?]="Yes")
+```
+```
+Male_leavers Average Performance rating = 
+                             CALCULATE(
+                                     AVERAGE('Pharma Group AG'[FY20 Performance Rating]),
+                                              'Pharma Group AG'[Gender]="Male",
+                                                'Pharma Group AG'[FY20 leaver?]="Yes")
 ```
 ```
 Employees Promoted (FY21) = CALCULATE(
@@ -83,9 +93,9 @@ Employees Promoted (FY21) = CALCULATE(
 ```
 ```
 % Employees Promoted (FY21) = DIVIDE(
-                                      CALCULATE(
-                                                COUNT('Pharma Group AG'[Promotion in FY21?]),
-                                                      'Pharma Group AG'[Promotion in FY21?]="Yes"),
+                                    CALCULATE(
+                                           COUNT('Pharma Group AG'[Promotion in FY21?]),
+                                                 'Pharma Group AG'[Promotion in FY21?]="Yes"),
                                       COUNT('Pharma Group AG'[Employee ID]))
 ```
 The measures were then used alongside other relevant records to visualize the metrics and create the dashboard shown below:
@@ -124,10 +134,12 @@ Average Performance Rating (Males) = CALCULATE(
 Target Performance Value (70%) = MAX('Pharma Group AG'[FY20 Performance Rating]) * 0.7
 ```
 ```
-Full Time(FTE) = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[FTE group] =1)
+Full Time(FTE) = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),
+                                   'Pharma Group AG'[FTE group] =1)
 ```
 ```
-Part Time(FTE) = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[FTE group] <1)
+Part Time(FTE) = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),
+                                   'Pharma Group AG'[FTE group] <1)
 ```
 The measures were then used alongside other relevant records to visualize the metrics and create the dashboard shown below:
 
