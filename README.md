@@ -1,5 +1,5 @@
 # PwC Switzerland Power BI Virtual Case Experience (3/3) –Diversity & Inclusion
-![Gender_balance](Diversity.jpg)
+![Gender_balance](Gen_Diversity.jpg)
  
 [Photo_Credit](https://www.istockphoto.com/photos/gender-balance-workplace)
 ## Background
@@ -151,7 +151,8 @@ Now we know the possible root cause of the Gender imbalance to be work hours, he
 -	Develop and implement clear, performance-based promotion criteria for all employees, including those at the Executive level. These criteria should take into account the higher performance levels of female employees observed in the analysis.
 -	Establish transparent metrics and benchmarks for promotions, ensuring that promotions are awarded based on merit and performance achievements.
 -	Regularly review and update these criteria to maintain fairness and objectivity.
-_Potential KPIs_
+
+  **_Potential KPIs_**
 -	**Promotion Rate by Gender:** Measure the percentage of promotions by gender over time. This KPI will show whether more women are being promoted as a result of performance-based promotion criteria.
 -	**Promotion Criteria Alignment:** Create a scorecard or checklist to assess how well promotions align with the established performance-based criteria. Track the percentage of promotions that align with these criteria.
 -	**Employee Performance Scores:** Monitor and track the performance scores of male and female employees. Compare the average performance scores of these groups to ensure that promotions are indeed based on merit.
@@ -160,7 +161,8 @@ _Potential KPIs_
 -	Launch diversity and inclusion initiatives specifically aimed at increasing the representation of women in executive roles.
 -	Create mentorship and sponsorship programs that pair high-potential female employees with executive-level mentors to support their career growth.
 -	Promote a workplace culture that values diversity, equity, and inclusion, and ensure that these values are reflected in all aspects of the organization, including leadership.
-**_Potential KPIs_**
+
+  **_Potential KPIs_**
 -	**Representation in Leadership Roles:** Measure the percentage of women in executive-level roles regularly. Set targets for increasing this percentage over time.
 -	**Mentorship and Sponsorship Engagement:** Track the number of female employees participating in mentorship and sponsorship programs. Assess their career progression and development against those who are not participating.
 -	**Employee Satisfaction Survey Scores:** Include questions related to diversity and inclusion in employee satisfaction surveys. Measure the scores and track improvements over time.
@@ -168,7 +170,8 @@ _Potential KPIs_
 3. **Flexible Work Arrangements:**
 -	Recognize that female employees make up the majority of part-time workers. Consider implementing flexible work arrangements that allow employees, especially women, to balance their work commitments with other responsibilities.
 -	Encourage full-time employees to explore flexible work options, such as remote work or adjusted schedules, to attract and retain a diverse talent pool.
-**_Potential KPIs_**
+
+  **_Potential KPIs_**
 -	**Utilization of Flexible Work Options:** Monitor the utilization of flexible work arrangements, such as part-time work, remote work, and adjusted schedules. Measure the percentage of employees, especially women, who take advantage of these options.
 -	**Retention Rate of Employees Using Flexible Work:** Track the retention rate of employees who use flexible work arrangements. Are they more likely to stay with the organization compared to those who do not?
 
@@ -177,7 +180,7 @@ _Potential KPIs_
 -	Regularly report on key diversity and inclusion metrics, including the number of women in executive roles, promotions, and employee satisfaction.
 -	Use data-driven insights to refine and adapt strategies as needed.
 
-**_Potential KPIs_**
+  **_Potential KPIs_**
 -	**Diversity Metrics Dashboard:** Create a diversity metrics dashboard that provides real-time data on gender diversity, promotions, and inclusion efforts. Regularly update and share this dashboard with key stakeholders.
 -	**Progress Toward Goals:** Establish specific diversity and inclusion goals, such as increasing the percentage of women in executive roles by a certain percentage within a defined timeframe. Measure progress toward these goals
 
@@ -185,7 +188,8 @@ _Potential KPIs_
 -	Ensure that leadership is committed to and actively involved in driving diversity and inclusion efforts.
 -	Hold leaders accountable for promoting diversity and equity within their teams and departments.
 -	Communicate the organization's commitment to diversity and inclusion both internally and externally.
-**_Potential KPIs_**
+
+  **_Potential KPIs_**
 -	**Leadership Engagement:** Measure the engagement and commitment of organizational leaders to diversity and inclusion initiatives. Use surveys or interviews to assess their involvement and support.
 -	**Leadership Accountability:** Track whether leaders are held accountable for promoting diversity and equity within their teams. Measure their success in achieving diversity-related goals within their departments.
 
