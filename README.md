@@ -1,5 +1,5 @@
 # PwC Switzerland Power BI Virtual Case Experience (3/3) –Diversity & Inclusion
-![Gender_balance](Gen_Diversity.jpg)
+![Gender_balance](Gend_Diversity.jpg)
  
 [Photo_Credit](https://www.istockphoto.com/photos/gender-balance-workplace)
 ## Background
